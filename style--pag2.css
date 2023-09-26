@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #190019;
+
+}
+
+h2{
+    
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    color: aliceblue;
+}
+.carrusel{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+}
+.carrusel ul{
+    display:  flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.carrusel li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.texto{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    color: aliceblue;
+}
+.texto h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+.carrusel img{
+    width: 100%;
+}
