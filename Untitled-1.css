@@ -41,3 +41,24 @@ body{
     height: 550px;
     
 }
+.column{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.column img{
+    width: 100%;
+    height: auto;
+}
+.column p{
+    color: aliceblue;
+}
+.column h3{
+    text-align: center;
+    color: antiquewhite;
+}
+.titulo,h2{
+    color: aliceblue;
+    text-align: center;
+}
