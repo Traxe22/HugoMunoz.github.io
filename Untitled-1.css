@@ -28,7 +28,7 @@ body{
 }
 .menu li{
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 10px;
 }
 .menu li a:hover{
     background-color: coral;/*Cambia de color por el mouse*/
