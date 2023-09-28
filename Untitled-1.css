@@ -21,14 +21,14 @@ body{
 }
 .menu li a{
     text-decoration: none;
-    color: black;
-    padding: 20px;
+    color: rgb(251, 252, 252);
+    padding: 15px;
     display: block;
     
 }
 .menu li{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 .menu li a:hover{
     background-color: coral;/*Cambia de color por el mouse*/
@@ -64,4 +64,8 @@ body{
 .titulo,h2{
     color: aliceblue;
     text-align: center;
+}
+.img-seleccion img{
+    width: 100%;
+    height: auto;
 }
