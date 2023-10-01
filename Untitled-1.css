@@ -3,6 +3,8 @@ body{
     background-color: #190019;
     margin: 0;
     padding: 0;
+    background-image: url(lionel-messi_1440x810_wmk.webp);
+    background-repeat: no-repeat;
 }
 .menu{
     list-style: none;
@@ -22,10 +24,11 @@ body{
 .menu li a{
     text-decoration: none;
     color: rgb(251, 252, 252);
-    padding: 15px;
+    padding: 15px 15px;
     display: block;
     
 }
+
 .menu li{
     display: inline-block;
     margin: 0 5px;

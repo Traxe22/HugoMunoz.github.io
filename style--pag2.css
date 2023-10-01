@@ -11,7 +11,7 @@ body{
 .menu{
     list-style: none;
     background-color: #541437;
-    width: 90%;
+    width: 33%;
     max-width: 1000px;
     margin: auto;
     text-align: center;
@@ -20,60 +20,65 @@ body{
     left: 0; /* Establece el margen izquierdo en 0 para centrar el menú */
     right: 0;
     z-index: 1;
-    border-radius: 100px;/* borde redondeado */
-    box-shadow: 0 0 20px rgb(255, 255, 255);
+    border-radius: 30px;/* borde redondeado */
+    box-shadow: 0 0 30px rgb(255, 255, 255);
 }
 .menu li a{
     text-decoration: none;
-    color: black;
-    padding: 20px;
+    color: rgb(251, 252, 252);
+    padding: 15px 15px;
     display: block;
     
 }
+
 .menu li{
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 5px;
 }
 .menu li a:hover{
     background-color: coral;/*Cambia de color por el mouse*/
     color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 30px;
 
 }
 
-h2{
-    
+.titulo{
     text-align: center;
-    font-size: 40px;
-    padding-top: 10px;
-    color: aliceblue;
+    margin-top: 150px;
+}
+.titulo h3{
+    font-size: 24px;
+    color: antiquewhite;
+}
+img{
+    width: 40%;
+    height: auto;
 }
 .carrusel{
-    width: 1280px;
-    height: auto;
-    margin: 50px auto 0;
-}
-.carrusel ul{
-    display:  flex;
-    padding: 0;
-    width: 100%;
-    animation: slide 20s infinite alternate ease-in-out;
-}
-.carrusel li{
-    width: 100%;
-    list-style: none;
-    position: relative;
-}
-.texto{
-    position: absolute;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
     text-align: center;
-    padding: 0 250px;
-    color: aliceblue;
-}
-.texto h2{
-    font-size: 45px;
-    margin-bottom: 35px;
+    height: 450px;
+    overflow: hidden;
 }
 .carrusel img{
-    width: 100%;
+    width: 50%;
+    height: 60%;
+    max-height: 100%;
+}
+.carrusel button{
+    margin-top: 10px;
+}
+
+footer{
+    text-decoration: none; 
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 60px;
+    font-weight: bold;
+    height: 100px;
+    border-top: 2px solid;
+    border-color: black;
+    margin-bottom: 20px;
 }

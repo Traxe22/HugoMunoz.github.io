@@ -17,7 +17,7 @@ form{
 .menu{
     list-style: none;
     background-color: #541437;
-    width: 90%;
+    width: 33%;
     max-width: 1000px;
     margin: auto;
     text-align: center;
@@ -26,24 +26,25 @@ form{
     left: 0; /* Establece el margen izquierdo en 0 para centrar el menú */
     right: 0;
     z-index: 1;
-    border-radius: 100px;/* borde redondeado */
-    box-shadow: 0 0 20px rgb(255, 255, 255);
+    border-radius: 30px;/* borde redondeado */
+    box-shadow: 0 0 30px rgb(255, 255, 255);
 }
 .menu li a{
     text-decoration: none;
-    color: black;
-    padding: 20px;
+    color: rgb(251, 252, 252);
+    padding: 15px 15px;
     display: block;
     
 }
+
 .menu li{
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 5px;
 }
 .menu li a:hover{
     background-color: coral;/*Cambia de color por el mouse*/
     color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 30px;
 
 }
 .input-group{
