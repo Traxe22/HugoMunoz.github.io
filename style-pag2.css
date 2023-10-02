@@ -10,7 +10,7 @@ body{
 form{
     padding: 50px 55px;
     box-shadow: 0 0 20px rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 40px;
     text-align: center;
     width: 340px;
 }
@@ -23,7 +23,7 @@ form{
     text-align: center;
     position: fixed;/*Hace que el menu se quede pegado. */
     top: 0; /*En la parte de arriba.*/
-    left: 0; /* Establece el margen izquierdo en 0 para centrar el menú */
+    left: 0; /* centrar el menú */
     right: 0;
     z-index: 1;
     border-radius: 30px;/* borde redondeado */
@@ -84,5 +84,9 @@ input, textarea{
 }
 #mensajeUsuario {
     margin-top: 0px; 
-    padding:0px;
+    padding: 10px;
+    text-align: center; 
+    background-color: #E8BCB9;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
