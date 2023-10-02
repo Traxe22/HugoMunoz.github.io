@@ -82,3 +82,7 @@ input, textarea{
 .btn:hover{
     background-color: #ae445a;
 }
+#mensajeUsuario {
+    margin-top: 0px; 
+    padding:0px;
+}

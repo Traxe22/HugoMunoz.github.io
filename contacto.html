@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="style-pag2.css">
-    <script src="validarContacto.js"></script>
 </head>
 <body>
     <ul class="menu">
@@ -13,7 +12,7 @@
         <li><a href="pag-2.html">Segunda Pagina</a></li>
         <li><a href="contacto.html">Contacto</a></li>
     </ul>
-    <form action="">
+    <form id="formularioContacto">
         <h2>Contacto</h2>
         <div>
             <label for="nombre">Nombre</label>
@@ -31,5 +30,9 @@
             <input class="btn"  value="Enviar" onclick="validarContacto()">
         </div>
     </form>
+    
+    <div id="mensajeUsuario"></div> <!-- Aquí se mostrará el mensaje -->
+
+    <script src="validarContacto.js"></script>
 </body>
 </html>
