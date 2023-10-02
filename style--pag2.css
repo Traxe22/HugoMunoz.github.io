@@ -44,16 +44,18 @@ body{
 
 .titulo{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 90px;
+}
+.titulo1{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 24px;
 }
 .titulo h3{
     font-size: 24px;
     color: antiquewhite;
 }
-img{
-    width: 40%;
-    height: auto;
-}
+
 .carrusel{
     max-width: 1000px;
     margin: 0 auto;
